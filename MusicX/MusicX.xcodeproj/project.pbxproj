@@ -1,0 +1,1144 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F94D0F31D222F050044EE8D /* lrcModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F94D0F21D222F050044EE8D /* lrcModel.m */; settings = {ASSET_TAGS = (); }; };
+		7F94D10D1D22300D0044EE8D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 7F94D0F51D22300D0044EE8D /* LICENSE */; settings = {ASSET_TAGS = (); }; };
+		7F94D10E1D22300D0044EE8D /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F94D0F91D22300D0044EE8D /* MJExtensionConst.m */; settings = {ASSET_TAGS = (); }; };
+		7F94D10F1D22300D0044EE8D /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F94D0FB1D22300D0044EE8D /* MJFoundation.m */; settings = {ASSET_TAGS = (); }; };
+		7F94D1101D22300D0044EE8D /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F94D0FD1D22300D0044EE8D /* MJProperty.m */; settings = {ASSET_TAGS = (); }; };
+		7F94D1111D22300D0044EE8D /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F94D0FF1D22300D0044EE8D /* MJPropertyKey.m */; settings = {ASSET_TAGS = (); }; };
+		7F94D1121D22300D0044EE8D /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F94D1011D22300D0044EE8D /* MJPropertyType.m */; settings = {ASSET_TAGS = (); }; };
+		7F94D1131D22300D0044EE8D /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F94D1031D22300D0044EE8D /* NSObject+MJClass.m */; settings = {ASSET_TAGS = (); }; };
+		7F94D1141D22300D0044EE8D /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F94D1051D22300D0044EE8D /* NSObject+MJCoding.m */; settings = {ASSET_TAGS = (); }; };
+		7F94D1151D22300D0044EE8D /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F94D1071D22300D0044EE8D /* NSObject+MJKeyValue.m */; settings = {ASSET_TAGS = (); }; };
+		7F94D1161D22300D0044EE8D /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F94D1091D22300D0044EE8D /* NSObject+MJProperty.m */; settings = {ASSET_TAGS = (); }; };
+		7F94D1171D22300D0044EE8D /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F94D10B1D22300D0044EE8D /* NSString+MJExtension.m */; settings = {ASSET_TAGS = (); }; };
+		7F94D1181D22300D0044EE8D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 7F94D10C1D22300D0044EE8D /* README.md */; settings = {ASSET_TAGS = (); }; };
+		7FAE1C681D1FCE43005AD4BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE1C671D1FCE43005AD4BB /* main.m */; };
+		7FAE1C741D1FCE43005AD4BB /* MusicX.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE1C721D1FCE43005AD4BB /* MusicX.xcdatamodeld */; };
+		7FAE1C761D1FCE43005AD4BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1C751D1FCE43005AD4BB /* Assets.xcassets */; };
+		7FAE1C791D1FCE43005AD4BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1C771D1FCE43005AD4BB /* LaunchScreen.storyboard */; };
+		7FAE1C841D1FCE43005AD4BB /* MusicXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE1C831D1FCE43005AD4BB /* MusicXTests.m */; };
+		7FAE1C8F1D1FCE43005AD4BB /* MusicXUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE1C8E1D1FCE43005AD4BB /* MusicXUITests.m */; };
+		7FAE1C9D1D1FCE64005AD4BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1C9C1D1FCE64005AD4BB /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		7FAE1CA01D1FCE7A005AD4BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE1C9F1D1FCE7A005AD4BB /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		7FAE1CAB1D1FCEB3005AD4BB /* MyMusic.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE1CA21D1FCEB3005AD4BB /* MyMusic.m */; settings = {ASSET_TAGS = (); }; };
+		7FAE1CAC1D1FCEB3005AD4BB /* myMusicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE1CA41D1FCEB3005AD4BB /* myMusicTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		7FAE1CAD1D1FCEB3005AD4BB /* MyLove.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE1CA61D1FCEB3005AD4BB /* MyLove.m */; settings = {ASSET_TAGS = (); }; };
+		7FAE1CAE1D1FCEB3005AD4BB /* MyTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE1CA81D1FCEB3005AD4BB /* MyTimer.m */; settings = {ASSET_TAGS = (); }; };
+		7FAE1CAF1D1FCEB3005AD4BB /* MyMemory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE1CAA1D1FCEB3005AD4BB /* MyMemory.m */; settings = {ASSET_TAGS = (); }; };
+		7FAE1CD61D1FCEE2005AD4BB /* TRIPLANE-Dear friends.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1CB11D1FCEE1005AD4BB /* TRIPLANE-Dear friends.mp3 */; settings = {ASSET_TAGS = (); }; };
+		7FAE1CD71D1FCEE2005AD4BB /* 마리오,네스티-Never Say Goodbye.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1CB21D1FCEE2005AD4BB /* 마리오,네스티-Never Say Goodbye.mp3 */; settings = {ASSET_TAGS = (); }; };
+		7FAE1CD81D1FCEE2005AD4BB /* 조성모-陪在你身边.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1CB31D1FCEE2005AD4BB /* 조성모-陪在你身边.mp3 */; settings = {ASSET_TAGS = (); }; };
+		7FAE1CD91D1FCEE2005AD4BB /* 宇多田ヒカル-Prisoner Of Love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1CB41D1FCEE2005AD4BB /* 宇多田ヒカル-Prisoner Of Love.mp3 */; settings = {ASSET_TAGS = (); }; };
+		7FAE1CDA1D1FCEE2005AD4BB /* 张赫宣-我们不该这样的 (《北上广不相信眼泪》电视剧片尾曲).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1CB51D1FCEE2005AD4BB /* 张赫宣-我们不该这样的 (《北上广不相信眼泪》电视剧片尾曲).mp3 */; settings = {ASSET_TAGS = (); }; };
+		7FAE1CDB1D1FCEE2005AD4BB /* 李荣浩-李白.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1CB61D1FCEE2005AD4BB /* 李荣浩-李白.mp3 */; settings = {ASSET_TAGS = (); }; };
+		7FAE1CDC1D1FCEE2005AD4BB /* 杜雯媞,王艺翔-雪.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1CB71D1FCEE2005AD4BB /* 杜雯媞,王艺翔-雪.mp3 */; settings = {ASSET_TAGS = (); }; };
+		7FAE1CDD1D1FCEE2005AD4BB /* 薛之谦-演员.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1CB81D1FCEE2005AD4BB /* 薛之谦-演员.mp3 */; settings = {ASSET_TAGS = (); }; };
+		7FAE1CDE1D1FCEE2005AD4BB /* 陈奕迅,王菲-因为爱情 (Live).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1CB91D1FCEE2005AD4BB /* 陈奕迅,王菲-因为爱情 (Live).mp3 */; settings = {ASSET_TAGS = (); }; };
+		7FAE1CDF1D1FCEE2005AD4BB /* 陈奕迅-Sleep Alone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1CBA1D1FCEE2005AD4BB /* 陈奕迅-Sleep Alone.mp3 */; settings = {ASSET_TAGS = (); }; };
+		7FAE1CE01D1FCEE2005AD4BB /* 陈奕迅-一丝不挂.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1CBB1D1FCEE2005AD4BB /* 陈奕迅-一丝不挂.mp3 */; settings = {ASSET_TAGS = (); }; };
+		7FAE1CE11D1FCEE2005AD4BB /* 陈奕迅-不如承诺来的简单.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1CBC1D1FCEE2005AD4BB /* 陈奕迅-不如承诺来的简单.mp3 */; settings = {ASSET_TAGS = (); }; };
+		7FAE1CE21D1FCEE2005AD4BB /* 陈奕迅-不要说话.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1CBD1D1FCEE2005AD4BB /* 陈奕迅-不要说话.mp3 */; settings = {ASSET_TAGS = (); }; };
+		7FAE1CE31D1FCEE2005AD4BB /* 陈奕迅-主旋律.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1CBE1D1FCEE2005AD4BB /* 陈奕迅-主旋律.mp3 */; settings = {ASSET_TAGS = (); }; };
+		7FAE1CE41D1FCEE2005AD4BB /* 陈奕迅-你给我听好.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1CBF1D1FCEE2005AD4BB /* 陈奕迅-你给我听好.mp3 */; settings = {ASSET_TAGS = (); }; };
+		7FAE1CE51D1FCEE2005AD4BB /* 陈奕迅-内疚.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1CC01D1FCEE2005AD4BB /* 陈奕迅-内疚.mp3 */; settings = {ASSET_TAGS = (); }; };
+		7FAE1CE61D1FCEE2005AD4BB /* 陈奕迅-可以了.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1CC11D1FCEE2005AD4BB /* 陈奕迅-可以了.mp3 */; settings = {ASSET_TAGS = (); }; };
+		7FAE1CE71D1FCEE2005AD4BB /* 陈奕迅-好久不见.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1CC21D1FCEE2005AD4BB /* 陈奕迅-好久不见.mp3 */; settings = {ASSET_TAGS = (); }; };
+		7FAE1CE81D1FCEE2005AD4BB /* 陈奕迅-娱乐天空.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1CC31D1FCEE2005AD4BB /* 陈奕迅-娱乐天空.mp3 */; settings = {ASSET_TAGS = (); }; };
+		7FAE1CE91D1FCEE2005AD4BB /* 陈奕迅-孤独患者.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1CC41D1FCEE2005AD4BB /* 陈奕迅-孤独患者.mp3 */; settings = {ASSET_TAGS = (); }; };
+		7FAE1CEA1D1FCEE2005AD4BB /* 陈奕迅-完.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1CC51D1FCEE2005AD4BB /* 陈奕迅-完.mp3 */; settings = {ASSET_TAGS = (); }; };
+		7FAE1CEB1D1FCEE2005AD4BB /* 陈奕迅-富士山下.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1CC61D1FCEE2005AD4BB /* 陈奕迅-富士山下.mp3 */; settings = {ASSET_TAGS = (); }; };
+		7FAE1CEC1D1FCEE2005AD4BB /* 陈奕迅-对不起 谢谢.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1CC71D1FCEE2005AD4BB /* 陈奕迅-对不起 谢谢.mp3 */; settings = {ASSET_TAGS = (); }; };
+		7FAE1CED1D1FCEE2005AD4BB /* 陈奕迅-时光隧道.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1CC81D1FCEE2005AD4BB /* 陈奕迅-时光隧道.mp3 */; settings = {ASSET_TAGS = (); }; };
+		7FAE1CEE1D1FCEE2005AD4BB /* 陈奕迅-暴风雨.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1CC91D1FCEE2005AD4BB /* 陈奕迅-暴风雨.mp3 */; settings = {ASSET_TAGS = (); }; };
+		7FAE1CEF1D1FCEE2005AD4BB /* 陈奕迅-浮夸.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1CCA1D1FCEE2005AD4BB /* 陈奕迅-浮夸.mp3 */; settings = {ASSET_TAGS = (); }; };
+		7FAE1CF01D1FCEE2005AD4BB /* 陈奕迅-淘汰.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1CCB1D1FCEE2005AD4BB /* 陈奕迅-淘汰.mp3 */; settings = {ASSET_TAGS = (); }; };
+		7FAE1CF11D1FCEE2005AD4BB /* 陈奕迅-爱情转移.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1CCC1D1FCEE2005AD4BB /* 陈奕迅-爱情转移.mp3 */; settings = {ASSET_TAGS = (); }; };
+		7FAE1CF21D1FCEE2005AD4BB /* 陈奕迅-看穿.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1CCD1D1FCEE2005AD4BB /* 陈奕迅-看穿.mp3 */; settings = {ASSET_TAGS = (); }; };
+		7FAE1CF31D1FCEE2005AD4BB /* 陈奕迅-碌卡.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1CCE1D1FCEE2005AD4BB /* 陈奕迅-碌卡.mp3 */; settings = {ASSET_TAGS = (); }; };
+		7FAE1CF41D1FCEE2005AD4BB /* 陈奕迅-稳稳的幸福.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1CCF1D1FCEE2005AD4BB /* 陈奕迅-稳稳的幸福.mp3 */; settings = {ASSET_TAGS = (); }; };
+		7FAE1CF51D1FCEE2005AD4BB /* 陈奕迅-等你爱我.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1CD01D1FCEE2005AD4BB /* 陈奕迅-等你爱我.mp3 */; settings = {ASSET_TAGS = (); }; };
+		7FAE1CF61D1FCEE2005AD4BB /* 陈奕迅-红玫瑰.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1CD11D1FCEE2005AD4BB /* 陈奕迅-红玫瑰.mp3 */; settings = {ASSET_TAGS = (); }; };
+		7FAE1CF71D1FCEE2005AD4BB /* 陈奕迅-阴天快乐.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1CD21D1FCEE2005AD4BB /* 陈奕迅-阴天快乐.mp3 */; settings = {ASSET_TAGS = (); }; };
+		7FAE1CF81D1FCEE2005AD4BB /* 陈奕迅-陪你度过漫长岁月.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1CD31D1FCEE2005AD4BB /* 陈奕迅-陪你度过漫长岁月.mp3 */; settings = {ASSET_TAGS = (); }; };
+		7FAE1CF91D1FCEE2005AD4BB /* 韩安旭-多幸运.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1CD41D1FCEE2005AD4BB /* 韩安旭-多幸运.mp3 */; settings = {ASSET_TAGS = (); }; };
+		7FAE1CFA1D1FCEE2005AD4BB /* 韩红,陈奕迅-十年 (Live).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1CD51D1FCEE2005AD4BB /* 韩红,陈奕迅-十年 (Live).mp3 */; settings = {ASSET_TAGS = (); }; };
+		7FAE1CFD1D1FCF60005AD4BB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FAE1CFC1D1FCF60005AD4BB /* AVFoundation.framework */; };
+		7FAE1CFF1D1FCF67005AD4BB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FAE1CFE1D1FCF67005AD4BB /* QuartzCore.framework */; };
+		7FAE1D011D1FCF78005AD4BB /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FAE1D001D1FCF78005AD4BB /* MediaPlayer.framework */; };
+		7FAE1D2B1D1FCFEE005AD4BB /* mvplayer_progress_thumb_mini@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1D041D1FCFEE005AD4BB /* mvplayer_progress_thumb_mini@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7FAE1D2C1D1FCFEE005AD4BB /* playing_volumn_slide_sound_little@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1D051D1FCFEE005AD4BB /* playing_volumn_slide_sound_little@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7FAE1D2D1D1FCFEE005AD4BB /* playing_volumn_sound@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1D061D1FCFEE005AD4BB /* playing_volumn_sound@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7FAE1D2E1D1FCFEE005AD4BB /* playing_volumn_nosound@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1D071D1FCFEE005AD4BB /* playing_volumn_nosound@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7FAE1D2F1D1FCFEE005AD4BB /* volume_slider_thumb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1D081D1FCFEE005AD4BB /* volume_slider_thumb@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7FAE1D301D1FCFEE005AD4BB /* miniplayer_btn_play_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1D091D1FCFEE005AD4BB /* miniplayer_btn_play_normal.png */; settings = {ASSET_TAGS = (); }; };
+		7FAE1D311D1FCFEE005AD4BB /* miniplayer_btn_pause_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1D0A1D1FCFEE005AD4BB /* miniplayer_btn_pause_normal.png */; settings = {ASSET_TAGS = (); }; };
+		7FAE1D321D1FCFEE005AD4BB /* myMusicUnselect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1D0B1D1FCFEE005AD4BB /* myMusicUnselect@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7FAE1D331D1FCFEE005AD4BB /* myMusicSelect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1D0C1D1FCFEE005AD4BB /* myMusicSelect@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7FAE1D341D1FCFEE005AD4BB /* myLoveSelect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1D0D1D1FCFEE005AD4BB /* myLoveSelect@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7FAE1D351D1FCFEE005AD4BB /* myLoveUnselect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1D0E1D1FCFEE005AD4BB /* myLoveUnselect@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7FAE1D361D1FCFEE005AD4BB /* myTimerUnselect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1D0F1D1FCFEE005AD4BB /* myTimerUnselect@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7FAE1D371D1FCFEE005AD4BB /* myTimerSelect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1D101D1FCFEE005AD4BB /* myTimerSelect@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7FAE1D381D1FCFEE005AD4BB /* myMemorySelect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1D111D1FCFEE005AD4BB /* myMemorySelect@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7FAE1D391D1FCFEE005AD4BB /* myMemoryUnselect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1D121D1FCFEE005AD4BB /* myMemoryUnselect@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7FAE1D3A1D1FCFEE005AD4BB /* player_btn_next_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1D131D1FCFEE005AD4BB /* player_btn_next_normal@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7FAE1D3B1D1FCFEE005AD4BB /* player_btn_next_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1D141D1FCFEE005AD4BB /* player_btn_next_highlight@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7FAE1D3C1D1FCFEE005AD4BB /* player_btn_pre_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1D151D1FCFEE005AD4BB /* player_btn_pre_normal@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7FAE1D3D1D1FCFEE005AD4BB /* player_btn_pre_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1D161D1FCFEE005AD4BB /* player_btn_pre_highlight@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7FAE1D3E1D1FCFEE005AD4BB /* player_btn_pause_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1D171D1FCFEE005AD4BB /* player_btn_pause_normal@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7FAE1D3F1D1FCFEE005AD4BB /* player_btn_pause_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1D181D1FCFEE005AD4BB /* player_btn_pause_highlight@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7FAE1D401D1FCFEE005AD4BB /* player_btn_play_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1D191D1FCFEE005AD4BB /* player_btn_play_highlight@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7FAE1D411D1FCFEE005AD4BB /* player_btn_play_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1D1A1D1FCFEE005AD4BB /* player_btn_play_normal@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7FAE1D421D1FCFEE005AD4BB /* nousenow_player_btn_pause_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1D1B1D1FCFEE005AD4BB /* nousenow_player_btn_pause_highlight@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7FAE1D431D1FCFEE005AD4BB /* nousenow_player_btn_pause_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1D1C1D1FCFEE005AD4BB /* nousenow_player_btn_pause_normal@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7FAE1D441D1FCFEE005AD4BB /* nousenow_player_btn_play_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1D1D1D1FCFEE005AD4BB /* nousenow_player_btn_play_highlight@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7FAE1D451D1FCFEE005AD4BB /* nousenow_player_btn_play_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1D1E1D1FCFEE005AD4BB /* nousenow_player_btn_play_normal@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7FAE1D461D1FCFEE005AD4BB /* nousenow_player_btn_next_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1D1F1D1FCFEE005AD4BB /* nousenow_player_btn_next_highlight@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7FAE1D471D1FCFEE005AD4BB /* nousenow_player_btn_next_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1D201D1FCFEE005AD4BB /* nousenow_player_btn_next_normal@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7FAE1D481D1FCFEE005AD4BB /* nousenow_player_btn_pre_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1D211D1FCFEE005AD4BB /* nousenow_player_btn_pre_highlight@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7FAE1D491D1FCFEE005AD4BB /* nousenow_player_btn_pre_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1D221D1FCFEE005AD4BB /* nousenow_player_btn_pre_normal@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7FAE1D4A1D1FCFEE005AD4BB /* music.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1D231D1FCFEE005AD4BB /* music.png */; settings = {ASSET_TAGS = (); }; };
+		7FAE1D4B1D1FCFEE005AD4BB /* player_btn_playlist_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1D241D1FCFEE005AD4BB /* player_btn_playlist_highlight@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7FAE1D4C1D1FCFEE005AD4BB /* player_btn_playlist_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1D251D1FCFEE005AD4BB /* player_btn_playlist_normal@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7FAE1D4D1D1FCFEE005AD4BB /* player_btn_love_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1D261D1FCFEE005AD4BB /* player_btn_love_highlight@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7FAE1D4E1D1FCFEE005AD4BB /* player_btn_love_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1D271D1FCFEE005AD4BB /* player_btn_love_normal@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7FAE1D4F1D1FCFEE005AD4BB /* player_btn_random_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1D281D1FCFEE005AD4BB /* player_btn_random_normal@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7FAE1D501D1FCFEE005AD4BB /* player_btn_repeat_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1D291D1FCFEE005AD4BB /* player_btn_repeat_normal@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7FAE1D511D1FCFEE005AD4BB /* player_btn_repeatone_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAE1D2A1D1FCFEE005AD4BB /* player_btn_repeatone_normal@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7FAE1D551D1FD118005AD4BB /* MarqueeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE1D541D1FD118005AD4BB /* MarqueeLabel.m */; settings = {ASSET_TAGS = (); }; };
+		7FAE1D651D1FD140005AD4BB /* AnimatiomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE1D581D1FD140005AD4BB /* AnimatiomView.m */; settings = {ASSET_TAGS = (); }; };
+		7FAE1D661D1FD140005AD4BB /* CircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE1D5B1D1FD140005AD4BB /* CircleLayer.m */; settings = {ASSET_TAGS = (); }; };
+		7FAE1D671D1FD140005AD4BB /* RectangleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE1D5D1D1FD140005AD4BB /* RectangleLayer.m */; settings = {ASSET_TAGS = (); }; };
+		7FAE1D681D1FD140005AD4BB /* TriangleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE1D5F1D1FD140005AD4BB /* TriangleLayer.m */; settings = {ASSET_TAGS = (); }; };
+		7FAE1D691D1FD140005AD4BB /* WaveLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE1D611D1FD140005AD4BB /* WaveLayer.m */; settings = {ASSET_TAGS = (); }; };
+		7FAE1D6A1D1FD140005AD4BB /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE1D641D1FD140005AD4BB /* UIColor+Hex.m */; settings = {ASSET_TAGS = (); }; };
+		7FAE1D701D1FD158005AD4BB /* ASValuePopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE1D6D1D1FD158005AD4BB /* ASValuePopUpView.m */; settings = {ASSET_TAGS = (); }; };
+		7FAE1D711D1FD158005AD4BB /* ASValueTrackingSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE1D6F1D1FD158005AD4BB /* ASValueTrackingSlider.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FAE1C801D1FCE43005AD4BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FAE1C5B1D1FCE43005AD4BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FAE1C621D1FCE43005AD4BB;
+			remoteInfo = MusicX;
+		};
+		7FAE1C8B1D1FCE43005AD4BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FAE1C5B1D1FCE43005AD4BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FAE1C621D1FCE43005AD4BB;
+			remoteInfo = MusicX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F94D0F11D222F050044EE8D /* lrcModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lrcModel.h; sourceTree = "<group>"; };
+		7F94D0F21D222F050044EE8D /* lrcModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lrcModel.m; sourceTree = "<group>"; };
+		7F94D0F51D22300D0044EE8D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7F94D0F71D22300D0044EE8D /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		7F94D0F81D22300D0044EE8D /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		7F94D0F91D22300D0044EE8D /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		7F94D0FA1D22300D0044EE8D /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		7F94D0FB1D22300D0044EE8D /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		7F94D0FC1D22300D0044EE8D /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		7F94D0FD1D22300D0044EE8D /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		7F94D0FE1D22300D0044EE8D /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
+		7F94D0FF1D22300D0044EE8D /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
+		7F94D1001D22300D0044EE8D /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		7F94D1011D22300D0044EE8D /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		7F94D1021D22300D0044EE8D /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
+		7F94D1031D22300D0044EE8D /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
+		7F94D1041D22300D0044EE8D /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		7F94D1051D22300D0044EE8D /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		7F94D1061D22300D0044EE8D /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		7F94D1071D22300D0044EE8D /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		7F94D1081D22300D0044EE8D /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		7F94D1091D22300D0044EE8D /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		7F94D10A1D22300D0044EE8D /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		7F94D10B1D22300D0044EE8D /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		7F94D10C1D22300D0044EE8D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7FAE1C631D1FCE43005AD4BB /* MusicX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FAE1C671D1FCE43005AD4BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7FAE1C731D1FCE43005AD4BB /* MusicX.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MusicX.xcdatamodel; sourceTree = "<group>"; };
+		7FAE1C751D1FCE43005AD4BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FAE1C781D1FCE43005AD4BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7FAE1C7A1D1FCE43005AD4BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FAE1C7F1D1FCE43005AD4BB /* MusicXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FAE1C831D1FCE43005AD4BB /* MusicXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicXTests.m; sourceTree = "<group>"; };
+		7FAE1C851D1FCE43005AD4BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FAE1C8A1D1FCE43005AD4BB /* MusicXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FAE1C8E1D1FCE43005AD4BB /* MusicXUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicXUITests.m; sourceTree = "<group>"; };
+		7FAE1C901D1FCE43005AD4BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FAE1C9C1D1FCE64005AD4BB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7FAE1C9E1D1FCE7A005AD4BB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7FAE1C9F1D1FCE7A005AD4BB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7FAE1CA11D1FCEB3005AD4BB /* MyMusic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMusic.h; sourceTree = "<group>"; };
+		7FAE1CA21D1FCEB3005AD4BB /* MyMusic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMusic.m; sourceTree = "<group>"; };
+		7FAE1CA31D1FCEB3005AD4BB /* myMusicTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myMusicTableViewCell.h; sourceTree = "<group>"; };
+		7FAE1CA41D1FCEB3005AD4BB /* myMusicTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myMusicTableViewCell.m; sourceTree = "<group>"; };
+		7FAE1CA51D1FCEB3005AD4BB /* MyLove.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLove.h; sourceTree = "<group>"; };
+		7FAE1CA61D1FCEB3005AD4BB /* MyLove.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLove.m; sourceTree = "<group>"; };
+		7FAE1CA71D1FCEB3005AD4BB /* MyTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTimer.h; sourceTree = "<group>"; };
+		7FAE1CA81D1FCEB3005AD4BB /* MyTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTimer.m; sourceTree = "<group>"; };
+		7FAE1CA91D1FCEB3005AD4BB /* MyMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMemory.h; sourceTree = "<group>"; };
+		7FAE1CAA1D1FCEB3005AD4BB /* MyMemory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMemory.m; sourceTree = "<group>"; };
+		7FAE1CB11D1FCEE1005AD4BB /* TRIPLANE-Dear friends.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "TRIPLANE-Dear friends.mp3"; sourceTree = "<group>"; };
+		7FAE1CB21D1FCEE2005AD4BB /* 마리오,네스티-Never Say Goodbye.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "마리오,네스티-Never Say Goodbye.mp3"; sourceTree = "<group>"; };
+		7FAE1CB31D1FCEE2005AD4BB /* 조성모-陪在你身边.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "조성모-陪在你身边.mp3"; sourceTree = "<group>"; };
+		7FAE1CB41D1FCEE2005AD4BB /* 宇多田ヒカル-Prisoner Of Love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "宇多田ヒカル-Prisoner Of Love.mp3"; sourceTree = "<group>"; };
+		7FAE1CB51D1FCEE2005AD4BB /* 张赫宣-我们不该这样的 (《北上广不相信眼泪》电视剧片尾曲).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "张赫宣-我们不该这样的 (《北上广不相信眼泪》电视剧片尾曲).mp3"; sourceTree = "<group>"; };
+		7FAE1CB61D1FCEE2005AD4BB /* 李荣浩-李白.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "李荣浩-李白.mp3"; sourceTree = "<group>"; };
+		7FAE1CB71D1FCEE2005AD4BB /* 杜雯媞,王艺翔-雪.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "杜雯媞,王艺翔-雪.mp3"; sourceTree = "<group>"; };
+		7FAE1CB81D1FCEE2005AD4BB /* 薛之谦-演员.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "薛之谦-演员.mp3"; sourceTree = "<group>"; };
+		7FAE1CB91D1FCEE2005AD4BB /* 陈奕迅,王菲-因为爱情 (Live).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "陈奕迅,王菲-因为爱情 (Live).mp3"; sourceTree = "<group>"; };
+		7FAE1CBA1D1FCEE2005AD4BB /* 陈奕迅-Sleep Alone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "陈奕迅-Sleep Alone.mp3"; sourceTree = "<group>"; };
+		7FAE1CBB1D1FCEE2005AD4BB /* 陈奕迅-一丝不挂.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "陈奕迅-一丝不挂.mp3"; sourceTree = "<group>"; };
+		7FAE1CBC1D1FCEE2005AD4BB /* 陈奕迅-不如承诺来的简单.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "陈奕迅-不如承诺来的简单.mp3"; sourceTree = "<group>"; };
+		7FAE1CBD1D1FCEE2005AD4BB /* 陈奕迅-不要说话.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "陈奕迅-不要说话.mp3"; sourceTree = "<group>"; };
+		7FAE1CBE1D1FCEE2005AD4BB /* 陈奕迅-主旋律.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "陈奕迅-主旋律.mp3"; sourceTree = "<group>"; };
+		7FAE1CBF1D1FCEE2005AD4BB /* 陈奕迅-你给我听好.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "陈奕迅-你给我听好.mp3"; sourceTree = "<group>"; };
+		7FAE1CC01D1FCEE2005AD4BB /* 陈奕迅-内疚.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "陈奕迅-内疚.mp3"; sourceTree = "<group>"; };
+		7FAE1CC11D1FCEE2005AD4BB /* 陈奕迅-可以了.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "陈奕迅-可以了.mp3"; sourceTree = "<group>"; };
+		7FAE1CC21D1FCEE2005AD4BB /* 陈奕迅-好久不见.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "陈奕迅-好久不见.mp3"; sourceTree = "<group>"; };
+		7FAE1CC31D1FCEE2005AD4BB /* 陈奕迅-娱乐天空.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "陈奕迅-娱乐天空.mp3"; sourceTree = "<group>"; };
+		7FAE1CC41D1FCEE2005AD4BB /* 陈奕迅-孤独患者.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "陈奕迅-孤独患者.mp3"; sourceTree = "<group>"; };
+		7FAE1CC51D1FCEE2005AD4BB /* 陈奕迅-完.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "陈奕迅-完.mp3"; sourceTree = "<group>"; };
+		7FAE1CC61D1FCEE2005AD4BB /* 陈奕迅-富士山下.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "陈奕迅-富士山下.mp3"; sourceTree = "<group>"; };
+		7FAE1CC71D1FCEE2005AD4BB /* 陈奕迅-对不起 谢谢.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "陈奕迅-对不起 谢谢.mp3"; sourceTree = "<group>"; };
+		7FAE1CC81D1FCEE2005AD4BB /* 陈奕迅-时光隧道.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "陈奕迅-时光隧道.mp3"; sourceTree = "<group>"; };
+		7FAE1CC91D1FCEE2005AD4BB /* 陈奕迅-暴风雨.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "陈奕迅-暴风雨.mp3"; sourceTree = "<group>"; };
+		7FAE1CCA1D1FCEE2005AD4BB /* 陈奕迅-浮夸.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "陈奕迅-浮夸.mp3"; sourceTree = "<group>"; };
+		7FAE1CCB1D1FCEE2005AD4BB /* 陈奕迅-淘汰.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "陈奕迅-淘汰.mp3"; sourceTree = "<group>"; };
+		7FAE1CCC1D1FCEE2005AD4BB /* 陈奕迅-爱情转移.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "陈奕迅-爱情转移.mp3"; sourceTree = "<group>"; };
+		7FAE1CCD1D1FCEE2005AD4BB /* 陈奕迅-看穿.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "陈奕迅-看穿.mp3"; sourceTree = "<group>"; };
+		7FAE1CCE1D1FCEE2005AD4BB /* 陈奕迅-碌卡.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "陈奕迅-碌卡.mp3"; sourceTree = "<group>"; };
+		7FAE1CCF1D1FCEE2005AD4BB /* 陈奕迅-稳稳的幸福.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "陈奕迅-稳稳的幸福.mp3"; sourceTree = "<group>"; };
+		7FAE1CD01D1FCEE2005AD4BB /* 陈奕迅-等你爱我.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "陈奕迅-等你爱我.mp3"; sourceTree = "<group>"; };
+		7FAE1CD11D1FCEE2005AD4BB /* 陈奕迅-红玫瑰.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "陈奕迅-红玫瑰.mp3"; sourceTree = "<group>"; };
+		7FAE1CD21D1FCEE2005AD4BB /* 陈奕迅-阴天快乐.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "陈奕迅-阴天快乐.mp3"; sourceTree = "<group>"; };
+		7FAE1CD31D1FCEE2005AD4BB /* 陈奕迅-陪你度过漫长岁月.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "陈奕迅-陪你度过漫长岁月.mp3"; sourceTree = "<group>"; };
+		7FAE1CD41D1FCEE2005AD4BB /* 韩安旭-多幸运.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "韩安旭-多幸运.mp3"; sourceTree = "<group>"; };
+		7FAE1CD51D1FCEE2005AD4BB /* 韩红,陈奕迅-十年 (Live).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "韩红,陈奕迅-十年 (Live).mp3"; sourceTree = "<group>"; };
+		7FAE1CFC1D1FCF60005AD4BB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7FAE1CFE1D1FCF67005AD4BB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7FAE1D001D1FCF78005AD4BB /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		7FAE1D041D1FCFEE005AD4BB /* mvplayer_progress_thumb_mini@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mvplayer_progress_thumb_mini@2x.png"; sourceTree = "<group>"; };
+		7FAE1D051D1FCFEE005AD4BB /* playing_volumn_slide_sound_little@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playing_volumn_slide_sound_little@2x.png"; sourceTree = "<group>"; };
+		7FAE1D061D1FCFEE005AD4BB /* playing_volumn_sound@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playing_volumn_sound@2x.png"; sourceTree = "<group>"; };
+		7FAE1D071D1FCFEE005AD4BB /* playing_volumn_nosound@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playing_volumn_nosound@2x.png"; sourceTree = "<group>"; };
+		7FAE1D081D1FCFEE005AD4BB /* volume_slider_thumb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "volume_slider_thumb@2x.png"; sourceTree = "<group>"; };
+		7FAE1D091D1FCFEE005AD4BB /* miniplayer_btn_play_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = miniplayer_btn_play_normal.png; sourceTree = "<group>"; };
+		7FAE1D0A1D1FCFEE005AD4BB /* miniplayer_btn_pause_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = miniplayer_btn_pause_normal.png; sourceTree = "<group>"; };
+		7FAE1D0B1D1FCFEE005AD4BB /* myMusicUnselect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "myMusicUnselect@2x.png"; sourceTree = "<group>"; };
+		7FAE1D0C1D1FCFEE005AD4BB /* myMusicSelect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "myMusicSelect@2x.png"; sourceTree = "<group>"; };
+		7FAE1D0D1D1FCFEE005AD4BB /* myLoveSelect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "myLoveSelect@2x.png"; sourceTree = "<group>"; };
+		7FAE1D0E1D1FCFEE005AD4BB /* myLoveUnselect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "myLoveUnselect@2x.png"; sourceTree = "<group>"; };
+		7FAE1D0F1D1FCFEE005AD4BB /* myTimerUnselect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "myTimerUnselect@2x.png"; sourceTree = "<group>"; };
+		7FAE1D101D1FCFEE005AD4BB /* myTimerSelect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "myTimerSelect@2x.png"; sourceTree = "<group>"; };
+		7FAE1D111D1FCFEE005AD4BB /* myMemorySelect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "myMemorySelect@2x.png"; sourceTree = "<group>"; };
+		7FAE1D121D1FCFEE005AD4BB /* myMemoryUnselect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "myMemoryUnselect@2x.png"; sourceTree = "<group>"; };
+		7FAE1D131D1FCFEE005AD4BB /* player_btn_next_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_next_normal@2x.png"; sourceTree = "<group>"; };
+		7FAE1D141D1FCFEE005AD4BB /* player_btn_next_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_next_highlight@2x.png"; sourceTree = "<group>"; };
+		7FAE1D151D1FCFEE005AD4BB /* player_btn_pre_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_pre_normal@2x.png"; sourceTree = "<group>"; };
+		7FAE1D161D1FCFEE005AD4BB /* player_btn_pre_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_pre_highlight@2x.png"; sourceTree = "<group>"; };
+		7FAE1D171D1FCFEE005AD4BB /* player_btn_pause_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_pause_normal@2x.png"; sourceTree = "<group>"; };
+		7FAE1D181D1FCFEE005AD4BB /* player_btn_pause_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_pause_highlight@2x.png"; sourceTree = "<group>"; };
+		7FAE1D191D1FCFEE005AD4BB /* player_btn_play_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_play_highlight@2x.png"; sourceTree = "<group>"; };
+		7FAE1D1A1D1FCFEE005AD4BB /* player_btn_play_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_play_normal@2x.png"; sourceTree = "<group>"; };
+		7FAE1D1B1D1FCFEE005AD4BB /* nousenow_player_btn_pause_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nousenow_player_btn_pause_highlight@2x.png"; sourceTree = "<group>"; };
+		7FAE1D1C1D1FCFEE005AD4BB /* nousenow_player_btn_pause_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nousenow_player_btn_pause_normal@2x.png"; sourceTree = "<group>"; };
+		7FAE1D1D1D1FCFEE005AD4BB /* nousenow_player_btn_play_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nousenow_player_btn_play_highlight@2x.png"; sourceTree = "<group>"; };
+		7FAE1D1E1D1FCFEE005AD4BB /* nousenow_player_btn_play_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nousenow_player_btn_play_normal@2x.png"; sourceTree = "<group>"; };
+		7FAE1D1F1D1FCFEE005AD4BB /* nousenow_player_btn_next_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nousenow_player_btn_next_highlight@2x.png"; sourceTree = "<group>"; };
+		7FAE1D201D1FCFEE005AD4BB /* nousenow_player_btn_next_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nousenow_player_btn_next_normal@2x.png"; sourceTree = "<group>"; };
+		7FAE1D211D1FCFEE005AD4BB /* nousenow_player_btn_pre_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nousenow_player_btn_pre_highlight@2x.png"; sourceTree = "<group>"; };
+		7FAE1D221D1FCFEE005AD4BB /* nousenow_player_btn_pre_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nousenow_player_btn_pre_normal@2x.png"; sourceTree = "<group>"; };
+		7FAE1D231D1FCFEE005AD4BB /* music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music.png; sourceTree = "<group>"; };
+		7FAE1D241D1FCFEE005AD4BB /* player_btn_playlist_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_playlist_highlight@2x.png"; sourceTree = "<group>"; };
+		7FAE1D251D1FCFEE005AD4BB /* player_btn_playlist_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_playlist_normal@2x.png"; sourceTree = "<group>"; };
+		7FAE1D261D1FCFEE005AD4BB /* player_btn_love_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_love_highlight@2x.png"; sourceTree = "<group>"; };
+		7FAE1D271D1FCFEE005AD4BB /* player_btn_love_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_love_normal@2x.png"; sourceTree = "<group>"; };
+		7FAE1D281D1FCFEE005AD4BB /* player_btn_random_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_random_normal@2x.png"; sourceTree = "<group>"; };
+		7FAE1D291D1FCFEE005AD4BB /* player_btn_repeat_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_repeat_normal@2x.png"; sourceTree = "<group>"; };
+		7FAE1D2A1D1FCFEE005AD4BB /* player_btn_repeatone_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_btn_repeatone_normal@2x.png"; sourceTree = "<group>"; };
+		7FAE1D531D1FD118005AD4BB /* MarqueeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MarqueeLabel.h; path = ../MarqueeLabel.h; sourceTree = "<group>"; };
+		7FAE1D541D1FD118005AD4BB /* MarqueeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MarqueeLabel.m; path = ../MarqueeLabel.m; sourceTree = "<group>"; };
+		7FAE1D571D1FD140005AD4BB /* AnimatiomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatiomView.h; sourceTree = "<group>"; };
+		7FAE1D581D1FD140005AD4BB /* AnimatiomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatiomView.m; sourceTree = "<group>"; };
+		7FAE1D5A1D1FD140005AD4BB /* CircleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleLayer.h; sourceTree = "<group>"; };
+		7FAE1D5B1D1FD140005AD4BB /* CircleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleLayer.m; sourceTree = "<group>"; };
+		7FAE1D5C1D1FD140005AD4BB /* RectangleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectangleLayer.h; sourceTree = "<group>"; };
+		7FAE1D5D1D1FD140005AD4BB /* RectangleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectangleLayer.m; sourceTree = "<group>"; };
+		7FAE1D5E1D1FD140005AD4BB /* TriangleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangleLayer.h; sourceTree = "<group>"; };
+		7FAE1D5F1D1FD140005AD4BB /* TriangleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriangleLayer.m; sourceTree = "<group>"; };
+		7FAE1D601D1FD140005AD4BB /* WaveLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveLayer.h; sourceTree = "<group>"; };
+		7FAE1D611D1FD140005AD4BB /* WaveLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveLayer.m; sourceTree = "<group>"; };
+		7FAE1D631D1FD140005AD4BB /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		7FAE1D641D1FD140005AD4BB /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		7FAE1D6C1D1FD158005AD4BB /* ASValuePopUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASValuePopUpView.h; sourceTree = "<group>"; };
+		7FAE1D6D1D1FD158005AD4BB /* ASValuePopUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASValuePopUpView.m; sourceTree = "<group>"; };
+		7FAE1D6E1D1FD158005AD4BB /* ASValueTrackingSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASValueTrackingSlider.h; sourceTree = "<group>"; };
+		7FAE1D6F1D1FD158005AD4BB /* ASValueTrackingSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASValueTrackingSlider.m; sourceTree = "<group>"; };
+		7FAE1D741D1FD2E8005AD4BB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FAE1C601D1FCE43005AD4BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAE1D011D1FCF78005AD4BB /* MediaPlayer.framework in Frameworks */,
+				7FAE1CFF1D1FCF67005AD4BB /* QuartzCore.framework in Frameworks */,
+				7FAE1CFD1D1FCF60005AD4BB /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FAE1C7C1D1FCE43005AD4BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FAE1C871D1FCE43005AD4BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F94D0F41D22300D0044EE8D /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				7F94D0F51D22300D0044EE8D /* LICENSE */,
+				7F94D0F61D22300D0044EE8D /* MJExtension */,
+				7F94D10C1D22300D0044EE8D /* README.md */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		7F94D0F61D22300D0044EE8D /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				7F94D0F71D22300D0044EE8D /* MJExtension.h */,
+				7F94D0F81D22300D0044EE8D /* MJExtensionConst.h */,
+				7F94D0F91D22300D0044EE8D /* MJExtensionConst.m */,
+				7F94D0FA1D22300D0044EE8D /* MJFoundation.h */,
+				7F94D0FB1D22300D0044EE8D /* MJFoundation.m */,
+				7F94D0FC1D22300D0044EE8D /* MJProperty.h */,
+				7F94D0FD1D22300D0044EE8D /* MJProperty.m */,
+				7F94D0FE1D22300D0044EE8D /* MJPropertyKey.h */,
+				7F94D0FF1D22300D0044EE8D /* MJPropertyKey.m */,
+				7F94D1001D22300D0044EE8D /* MJPropertyType.h */,
+				7F94D1011D22300D0044EE8D /* MJPropertyType.m */,
+				7F94D1021D22300D0044EE8D /* NSObject+MJClass.h */,
+				7F94D1031D22300D0044EE8D /* NSObject+MJClass.m */,
+				7F94D1041D22300D0044EE8D /* NSObject+MJCoding.h */,
+				7F94D1051D22300D0044EE8D /* NSObject+MJCoding.m */,
+				7F94D1061D22300D0044EE8D /* NSObject+MJKeyValue.h */,
+				7F94D1071D22300D0044EE8D /* NSObject+MJKeyValue.m */,
+				7F94D1081D22300D0044EE8D /* NSObject+MJProperty.h */,
+				7F94D1091D22300D0044EE8D /* NSObject+MJProperty.m */,
+				7F94D10A1D22300D0044EE8D /* NSString+MJExtension.h */,
+				7F94D10B1D22300D0044EE8D /* NSString+MJExtension.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		7FAE1C5A1D1FCE43005AD4BB = {
+			isa = PBXGroup;
+			children = (
+				7FAE1C651D1FCE43005AD4BB /* MusicX */,
+				7FAE1C821D1FCE43005AD4BB /* MusicXTests */,
+				7FAE1C8D1D1FCE43005AD4BB /* MusicXUITests */,
+				7FAE1C641D1FCE43005AD4BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FAE1C641D1FCE43005AD4BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE1C631D1FCE43005AD4BB /* MusicX.app */,
+				7FAE1C7F1D1FCE43005AD4BB /* MusicXTests.xctest */,
+				7FAE1C8A1D1FCE43005AD4BB /* MusicXUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FAE1C651D1FCE43005AD4BB /* MusicX */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE1C9E1D1FCE7A005AD4BB /* AppDelegate.h */,
+				7FAE1C9F1D1FCE7A005AD4BB /* AppDelegate.m */,
+				7FAE1CFB1D1FCF13005AD4BB /* MainViewControllers */,
+				7FAE1C661D1FCE43005AD4BB /* Supporting Files */,
+			);
+			path = MusicX;
+			sourceTree = "<group>";
+		};
+		7FAE1C661D1FCE43005AD4BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE1D031D1FCFBD005AD4BB /* image */,
+				7FAE1CB01D1FCEE1005AD4BB /* Music */,
+				7FAE1D021D1FCF82005AD4BB /* framework */,
+				7FAE1C671D1FCE43005AD4BB /* main.m */,
+				7FAE1C751D1FCE43005AD4BB /* Assets.xcassets */,
+				7FAE1C9C1D1FCE64005AD4BB /* Main.storyboard */,
+				7FAE1C771D1FCE43005AD4BB /* LaunchScreen.storyboard */,
+				7FAE1C7A1D1FCE43005AD4BB /* Info.plist */,
+				7FAE1C721D1FCE43005AD4BB /* MusicX.xcdatamodeld */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7FAE1C821D1FCE43005AD4BB /* MusicXTests */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE1C831D1FCE43005AD4BB /* MusicXTests.m */,
+				7FAE1C851D1FCE43005AD4BB /* Info.plist */,
+			);
+			path = MusicXTests;
+			sourceTree = "<group>";
+		};
+		7FAE1C8D1D1FCE43005AD4BB /* MusicXUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE1C8E1D1FCE43005AD4BB /* MusicXUITests.m */,
+				7FAE1C901D1FCE43005AD4BB /* Info.plist */,
+			);
+			path = MusicXUITests;
+			sourceTree = "<group>";
+		};
+		7FAE1CB01D1FCEE1005AD4BB /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE1CB11D1FCEE1005AD4BB /* TRIPLANE-Dear friends.mp3 */,
+				7FAE1CB21D1FCEE2005AD4BB /* 마리오,네스티-Never Say Goodbye.mp3 */,
+				7FAE1CB31D1FCEE2005AD4BB /* 조성모-陪在你身边.mp3 */,
+				7FAE1CB41D1FCEE2005AD4BB /* 宇多田ヒカル-Prisoner Of Love.mp3 */,
+				7FAE1CB51D1FCEE2005AD4BB /* 张赫宣-我们不该这样的 (《北上广不相信眼泪》电视剧片尾曲).mp3 */,
+				7FAE1CB61D1FCEE2005AD4BB /* 李荣浩-李白.mp3 */,
+				7FAE1CB71D1FCEE2005AD4BB /* 杜雯媞,王艺翔-雪.mp3 */,
+				7FAE1CB81D1FCEE2005AD4BB /* 薛之谦-演员.mp3 */,
+				7FAE1CB91D1FCEE2005AD4BB /* 陈奕迅,王菲-因为爱情 (Live).mp3 */,
+				7FAE1CBA1D1FCEE2005AD4BB /* 陈奕迅-Sleep Alone.mp3 */,
+				7FAE1CBB1D1FCEE2005AD4BB /* 陈奕迅-一丝不挂.mp3 */,
+				7FAE1CBC1D1FCEE2005AD4BB /* 陈奕迅-不如承诺来的简单.mp3 */,
+				7FAE1CBD1D1FCEE2005AD4BB /* 陈奕迅-不要说话.mp3 */,
+				7FAE1CBE1D1FCEE2005AD4BB /* 陈奕迅-主旋律.mp3 */,
+				7FAE1CBF1D1FCEE2005AD4BB /* 陈奕迅-你给我听好.mp3 */,
+				7FAE1CC01D1FCEE2005AD4BB /* 陈奕迅-内疚.mp3 */,
+				7FAE1CC11D1FCEE2005AD4BB /* 陈奕迅-可以了.mp3 */,
+				7FAE1CC21D1FCEE2005AD4BB /* 陈奕迅-好久不见.mp3 */,
+				7FAE1CC31D1FCEE2005AD4BB /* 陈奕迅-娱乐天空.mp3 */,
+				7FAE1CC41D1FCEE2005AD4BB /* 陈奕迅-孤独患者.mp3 */,
+				7FAE1CC51D1FCEE2005AD4BB /* 陈奕迅-完.mp3 */,
+				7FAE1CC61D1FCEE2005AD4BB /* 陈奕迅-富士山下.mp3 */,
+				7FAE1CC71D1FCEE2005AD4BB /* 陈奕迅-对不起 谢谢.mp3 */,
+				7FAE1CC81D1FCEE2005AD4BB /* 陈奕迅-时光隧道.mp3 */,
+				7FAE1CC91D1FCEE2005AD4BB /* 陈奕迅-暴风雨.mp3 */,
+				7FAE1CCA1D1FCEE2005AD4BB /* 陈奕迅-浮夸.mp3 */,
+				7FAE1CCB1D1FCEE2005AD4BB /* 陈奕迅-淘汰.mp3 */,
+				7FAE1CCC1D1FCEE2005AD4BB /* 陈奕迅-爱情转移.mp3 */,
+				7FAE1CCD1D1FCEE2005AD4BB /* 陈奕迅-看穿.mp3 */,
+				7FAE1CCE1D1FCEE2005AD4BB /* 陈奕迅-碌卡.mp3 */,
+				7FAE1CCF1D1FCEE2005AD4BB /* 陈奕迅-稳稳的幸福.mp3 */,
+				7FAE1CD01D1FCEE2005AD4BB /* 陈奕迅-等你爱我.mp3 */,
+				7FAE1CD11D1FCEE2005AD4BB /* 陈奕迅-红玫瑰.mp3 */,
+				7FAE1CD21D1FCEE2005AD4BB /* 陈奕迅-阴天快乐.mp3 */,
+				7FAE1CD31D1FCEE2005AD4BB /* 陈奕迅-陪你度过漫长岁月.mp3 */,
+				7FAE1CD41D1FCEE2005AD4BB /* 韩安旭-多幸运.mp3 */,
+				7FAE1CD51D1FCEE2005AD4BB /* 韩红,陈奕迅-十年 (Live).mp3 */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		7FAE1CFB1D1FCF13005AD4BB /* MainViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE1DD71D1FF34E005AD4BB /* MyMusic */,
+				7FAE1DD81D1FF365005AD4BB /* MyLove */,
+				7FAE1DD91D1FF36E005AD4BB /* MyTimer */,
+				7FAE1DDA1D1FF376005AD4BB /* MyMemory */,
+			);
+			name = MainViewControllers;
+			sourceTree = "<group>";
+		};
+		7FAE1D021D1FCF82005AD4BB /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				7F94D0F41D22300D0044EE8D /* MJExtension */,
+				7FAE1D731D1FD1AE005AD4BB /* LaunchAnimation */,
+				7FAE1D721D1FD175005AD4BB /* MarqueeLabel */,
+				7FAE1D6B1D1FD158005AD4BB /* ASValueTrackingSlider */,
+				7FAE1D001D1FCF78005AD4BB /* MediaPlayer.framework */,
+				7FAE1CFE1D1FCF67005AD4BB /* QuartzCore.framework */,
+				7FAE1CFC1D1FCF60005AD4BB /* AVFoundation.framework */,
+			);
+			name = framework;
+			sourceTree = "<group>";
+		};
+		7FAE1D031D1FCFBD005AD4BB /* image */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE1D041D1FCFEE005AD4BB /* mvplayer_progress_thumb_mini@2x.png */,
+				7FAE1D051D1FCFEE005AD4BB /* playing_volumn_slide_sound_little@2x.png */,
+				7FAE1D061D1FCFEE005AD4BB /* playing_volumn_sound@2x.png */,
+				7FAE1D071D1FCFEE005AD4BB /* playing_volumn_nosound@2x.png */,
+				7FAE1D081D1FCFEE005AD4BB /* volume_slider_thumb@2x.png */,
+				7FAE1D091D1FCFEE005AD4BB /* miniplayer_btn_play_normal.png */,
+				7FAE1D0A1D1FCFEE005AD4BB /* miniplayer_btn_pause_normal.png */,
+				7FAE1D0B1D1FCFEE005AD4BB /* myMusicUnselect@2x.png */,
+				7FAE1D0C1D1FCFEE005AD4BB /* myMusicSelect@2x.png */,
+				7FAE1D0D1D1FCFEE005AD4BB /* myLoveSelect@2x.png */,
+				7FAE1D0E1D1FCFEE005AD4BB /* myLoveUnselect@2x.png */,
+				7FAE1D0F1D1FCFEE005AD4BB /* myTimerUnselect@2x.png */,
+				7FAE1D101D1FCFEE005AD4BB /* myTimerSelect@2x.png */,
+				7FAE1D111D1FCFEE005AD4BB /* myMemorySelect@2x.png */,
+				7FAE1D121D1FCFEE005AD4BB /* myMemoryUnselect@2x.png */,
+				7FAE1D131D1FCFEE005AD4BB /* player_btn_next_normal@2x.png */,
+				7FAE1D141D1FCFEE005AD4BB /* player_btn_next_highlight@2x.png */,
+				7FAE1D151D1FCFEE005AD4BB /* player_btn_pre_normal@2x.png */,
+				7FAE1D161D1FCFEE005AD4BB /* player_btn_pre_highlight@2x.png */,
+				7FAE1D171D1FCFEE005AD4BB /* player_btn_pause_normal@2x.png */,
+				7FAE1D181D1FCFEE005AD4BB /* player_btn_pause_highlight@2x.png */,
+				7FAE1D191D1FCFEE005AD4BB /* player_btn_play_highlight@2x.png */,
+				7FAE1D1A1D1FCFEE005AD4BB /* player_btn_play_normal@2x.png */,
+				7FAE1D1B1D1FCFEE005AD4BB /* nousenow_player_btn_pause_highlight@2x.png */,
+				7FAE1D1C1D1FCFEE005AD4BB /* nousenow_player_btn_pause_normal@2x.png */,
+				7FAE1D1D1D1FCFEE005AD4BB /* nousenow_player_btn_play_highlight@2x.png */,
+				7FAE1D1E1D1FCFEE005AD4BB /* nousenow_player_btn_play_normal@2x.png */,
+				7FAE1D1F1D1FCFEE005AD4BB /* nousenow_player_btn_next_highlight@2x.png */,
+				7FAE1D201D1FCFEE005AD4BB /* nousenow_player_btn_next_normal@2x.png */,
+				7FAE1D211D1FCFEE005AD4BB /* nousenow_player_btn_pre_highlight@2x.png */,
+				7FAE1D221D1FCFEE005AD4BB /* nousenow_player_btn_pre_normal@2x.png */,
+				7FAE1D231D1FCFEE005AD4BB /* music.png */,
+				7FAE1D241D1FCFEE005AD4BB /* player_btn_playlist_highlight@2x.png */,
+				7FAE1D251D1FCFEE005AD4BB /* player_btn_playlist_normal@2x.png */,
+				7FAE1D261D1FCFEE005AD4BB /* player_btn_love_highlight@2x.png */,
+				7FAE1D271D1FCFEE005AD4BB /* player_btn_love_normal@2x.png */,
+				7FAE1D281D1FCFEE005AD4BB /* player_btn_random_normal@2x.png */,
+				7FAE1D291D1FCFEE005AD4BB /* player_btn_repeat_normal@2x.png */,
+				7FAE1D2A1D1FCFEE005AD4BB /* player_btn_repeatone_normal@2x.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		7FAE1D561D1FD140005AD4BB /* HWView */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE1D571D1FD140005AD4BB /* AnimatiomView.h */,
+				7FAE1D581D1FD140005AD4BB /* AnimatiomView.m */,
+				7FAE1D591D1FD140005AD4BB /* HWLayer */,
+			);
+			name = HWView;
+			sourceTree = "<group>";
+		};
+		7FAE1D591D1FD140005AD4BB /* HWLayer */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE1D5A1D1FD140005AD4BB /* CircleLayer.h */,
+				7FAE1D5B1D1FD140005AD4BB /* CircleLayer.m */,
+				7FAE1D5C1D1FD140005AD4BB /* RectangleLayer.h */,
+				7FAE1D5D1D1FD140005AD4BB /* RectangleLayer.m */,
+				7FAE1D5E1D1FD140005AD4BB /* TriangleLayer.h */,
+				7FAE1D5F1D1FD140005AD4BB /* TriangleLayer.m */,
+				7FAE1D601D1FD140005AD4BB /* WaveLayer.h */,
+				7FAE1D611D1FD140005AD4BB /* WaveLayer.m */,
+			);
+			path = HWLayer;
+			sourceTree = "<group>";
+		};
+		7FAE1D621D1FD140005AD4BB /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE1D631D1FD140005AD4BB /* UIColor+Hex.h */,
+				7FAE1D641D1FD140005AD4BB /* UIColor+Hex.m */,
+			);
+			name = Others;
+			path = ../Others;
+			sourceTree = "<group>";
+		};
+		7FAE1D6B1D1FD158005AD4BB /* ASValueTrackingSlider */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE1D6C1D1FD158005AD4BB /* ASValuePopUpView.h */,
+				7FAE1D6D1D1FD158005AD4BB /* ASValuePopUpView.m */,
+				7FAE1D6E1D1FD158005AD4BB /* ASValueTrackingSlider.h */,
+				7FAE1D6F1D1FD158005AD4BB /* ASValueTrackingSlider.m */,
+			);
+			path = ASValueTrackingSlider;
+			sourceTree = "<group>";
+		};
+		7FAE1D721D1FD175005AD4BB /* MarqueeLabel */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE1D531D1FD118005AD4BB /* MarqueeLabel.h */,
+				7FAE1D541D1FD118005AD4BB /* MarqueeLabel.m */,
+			);
+			name = MarqueeLabel;
+			path = HWView;
+			sourceTree = "<group>";
+		};
+		7FAE1D731D1FD1AE005AD4BB /* LaunchAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE1D561D1FD140005AD4BB /* HWView */,
+				7FAE1D621D1FD140005AD4BB /* Others */,
+			);
+			name = LaunchAnimation;
+			path = HWView;
+			sourceTree = "<group>";
+		};
+		7FAE1DD71D1FF34E005AD4BB /* MyMusic */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE1CA11D1FCEB3005AD4BB /* MyMusic.h */,
+				7FAE1CA21D1FCEB3005AD4BB /* MyMusic.m */,
+				7FAE1CA31D1FCEB3005AD4BB /* myMusicTableViewCell.h */,
+				7FAE1CA41D1FCEB3005AD4BB /* myMusicTableViewCell.m */,
+				7F94D0F11D222F050044EE8D /* lrcModel.h */,
+				7F94D0F21D222F050044EE8D /* lrcModel.m */,
+			);
+			name = MyMusic;
+			sourceTree = "<group>";
+		};
+		7FAE1DD81D1FF365005AD4BB /* MyLove */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE1CA51D1FCEB3005AD4BB /* MyLove.h */,
+				7FAE1CA61D1FCEB3005AD4BB /* MyLove.m */,
+			);
+			name = MyLove;
+			sourceTree = "<group>";
+		};
+		7FAE1DD91D1FF36E005AD4BB /* MyTimer */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE1CA71D1FCEB3005AD4BB /* MyTimer.h */,
+				7FAE1CA81D1FCEB3005AD4BB /* MyTimer.m */,
+			);
+			name = MyTimer;
+			sourceTree = "<group>";
+		};
+		7FAE1DDA1D1FF376005AD4BB /* MyMemory */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE1CA91D1FCEB3005AD4BB /* MyMemory.h */,
+				7FAE1CAA1D1FCEB3005AD4BB /* MyMemory.m */,
+			);
+			name = MyMemory;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FAE1C621D1FCE43005AD4BB /* MusicX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FAE1C931D1FCE43005AD4BB /* Build configuration list for PBXNativeTarget "MusicX" */;
+			buildPhases = (
+				7FAE1C5F1D1FCE43005AD4BB /* Sources */,
+				7FAE1C601D1FCE43005AD4BB /* Frameworks */,
+				7FAE1C611D1FCE43005AD4BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicX;
+			productName = MusicX;
+			productReference = 7FAE1C631D1FCE43005AD4BB /* MusicX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FAE1C7E1D1FCE43005AD4BB /* MusicXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FAE1C961D1FCE43005AD4BB /* Build configuration list for PBXNativeTarget "MusicXTests" */;
+			buildPhases = (
+				7FAE1C7B1D1FCE43005AD4BB /* Sources */,
+				7FAE1C7C1D1FCE43005AD4BB /* Frameworks */,
+				7FAE1C7D1D1FCE43005AD4BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FAE1C811D1FCE43005AD4BB /* PBXTargetDependency */,
+			);
+			name = MusicXTests;
+			productName = MusicXTests;
+			productReference = 7FAE1C7F1D1FCE43005AD4BB /* MusicXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7FAE1C891D1FCE43005AD4BB /* MusicXUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FAE1C991D1FCE43005AD4BB /* Build configuration list for PBXNativeTarget "MusicXUITests" */;
+			buildPhases = (
+				7FAE1C861D1FCE43005AD4BB /* Sources */,
+				7FAE1C871D1FCE43005AD4BB /* Frameworks */,
+				7FAE1C881D1FCE43005AD4BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FAE1C8C1D1FCE43005AD4BB /* PBXTargetDependency */,
+			);
+			name = MusicXUITests;
+			productName = MusicXUITests;
+			productReference = 7FAE1C8A1D1FCE43005AD4BB /* MusicXUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FAE1C5B1D1FCE43005AD4BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "顾明轩";
+				TargetAttributes = {
+					7FAE1C621D1FCE43005AD4BB = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = CRW993P9U2;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					7FAE1C7E1D1FCE43005AD4BB = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = CRW993P9U2;
+						TestTargetID = 7FAE1C621D1FCE43005AD4BB;
+					};
+					7FAE1C891D1FCE43005AD4BB = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = CRW993P9U2;
+						TestTargetID = 7FAE1C621D1FCE43005AD4BB;
+					};
+				};
+			};
+			buildConfigurationList = 7FAE1C5E1D1FCE43005AD4BB /* Build configuration list for PBXProject "MusicX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FAE1C5A1D1FCE43005AD4BB;
+			productRefGroup = 7FAE1C641D1FCE43005AD4BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FAE1C621D1FCE43005AD4BB /* MusicX */,
+				7FAE1C7E1D1FCE43005AD4BB /* MusicXTests */,
+				7FAE1C891D1FCE43005AD4BB /* MusicXUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FAE1C611D1FCE43005AD4BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAE1CD81D1FCEE2005AD4BB /* 조성모-陪在你身边.mp3 in Resources */,
+				7FAE1CF21D1FCEE2005AD4BB /* 陈奕迅-看穿.mp3 in Resources */,
+				7FAE1D471D1FCFEE005AD4BB /* nousenow_player_btn_next_normal@2x.png in Resources */,
+				7FAE1D3D1D1FCFEE005AD4BB /* player_btn_pre_highlight@2x.png in Resources */,
+				7FAE1D2C1D1FCFEE005AD4BB /* playing_volumn_slide_sound_little@2x.png in Resources */,
+				7FAE1CDE1D1FCEE2005AD4BB /* 陈奕迅,王菲-因为爱情 (Live).mp3 in Resources */,
+				7FAE1CE71D1FCEE2005AD4BB /* 陈奕迅-好久不见.mp3 in Resources */,
+				7FAE1CF31D1FCEE2005AD4BB /* 陈奕迅-碌卡.mp3 in Resources */,
+				7FAE1D311D1FCFEE005AD4BB /* miniplayer_btn_pause_normal.png in Resources */,
+				7FAE1C9D1D1FCE64005AD4BB /* Main.storyboard in Resources */,
+				7FAE1D431D1FCFEE005AD4BB /* nousenow_player_btn_pause_normal@2x.png in Resources */,
+				7FAE1CDF1D1FCEE2005AD4BB /* 陈奕迅-Sleep Alone.mp3 in Resources */,
+				7FAE1CEF1D1FCEE2005AD4BB /* 陈奕迅-浮夸.mp3 in Resources */,
+				7FAE1CEB1D1FCEE2005AD4BB /* 陈奕迅-富士山下.mp3 in Resources */,
+				7FAE1CF41D1FCEE2005AD4BB /* 陈奕迅-稳稳的幸福.mp3 in Resources */,
+				7FAE1CD91D1FCEE2005AD4BB /* 宇多田ヒカル-Prisoner Of Love.mp3 in Resources */,
+				7FAE1D401D1FCFEE005AD4BB /* player_btn_play_highlight@2x.png in Resources */,
+				7FAE1C791D1FCE43005AD4BB /* LaunchScreen.storyboard in Resources */,
+				7FAE1D501D1FCFEE005AD4BB /* player_btn_repeat_normal@2x.png in Resources */,
+				7FAE1CE61D1FCEE2005AD4BB /* 陈奕迅-可以了.mp3 in Resources */,
+				7FAE1D491D1FCFEE005AD4BB /* nousenow_player_btn_pre_normal@2x.png in Resources */,
+				7FAE1D411D1FCFEE005AD4BB /* player_btn_play_normal@2x.png in Resources */,
+				7FAE1D3E1D1FCFEE005AD4BB /* player_btn_pause_normal@2x.png in Resources */,
+				7FAE1CDB1D1FCEE2005AD4BB /* 李荣浩-李白.mp3 in Resources */,
+				7FAE1D3A1D1FCFEE005AD4BB /* player_btn_next_normal@2x.png in Resources */,
+				7FAE1CE81D1FCEE2005AD4BB /* 陈奕迅-娱乐天空.mp3 in Resources */,
+				7FAE1D361D1FCFEE005AD4BB /* myTimerUnselect@2x.png in Resources */,
+				7FAE1D391D1FCFEE005AD4BB /* myMemoryUnselect@2x.png in Resources */,
+				7FAE1D4E1D1FCFEE005AD4BB /* player_btn_love_normal@2x.png in Resources */,
+				7FAE1D3F1D1FCFEE005AD4BB /* player_btn_pause_highlight@2x.png in Resources */,
+				7FAE1CE41D1FCEE2005AD4BB /* 陈奕迅-你给我听好.mp3 in Resources */,
+				7FAE1D4A1D1FCFEE005AD4BB /* music.png in Resources */,
+				7FAE1D2D1D1FCFEE005AD4BB /* playing_volumn_sound@2x.png in Resources */,
+				7FAE1CE51D1FCEE2005AD4BB /* 陈奕迅-内疚.mp3 in Resources */,
+				7FAE1CD71D1FCEE2005AD4BB /* 마리오,네스티-Never Say Goodbye.mp3 in Resources */,
+				7FAE1CE21D1FCEE2005AD4BB /* 陈奕迅-不要说话.mp3 in Resources */,
+				7FAE1CE91D1FCEE2005AD4BB /* 陈奕迅-孤独患者.mp3 in Resources */,
+				7FAE1CDC1D1FCEE2005AD4BB /* 杜雯媞,王艺翔-雪.mp3 in Resources */,
+				7FAE1D2E1D1FCFEE005AD4BB /* playing_volumn_nosound@2x.png in Resources */,
+				7FAE1CE31D1FCEE2005AD4BB /* 陈奕迅-主旋律.mp3 in Resources */,
+				7FAE1D381D1FCFEE005AD4BB /* myMemorySelect@2x.png in Resources */,
+				7FAE1CEE1D1FCEE2005AD4BB /* 陈奕迅-暴风雨.mp3 in Resources */,
+				7FAE1CF81D1FCEE2005AD4BB /* 陈奕迅-陪你度过漫长岁月.mp3 in Resources */,
+				7FAE1D301D1FCFEE005AD4BB /* miniplayer_btn_play_normal.png in Resources */,
+				7FAE1D321D1FCFEE005AD4BB /* myMusicUnselect@2x.png in Resources */,
+				7FAE1CDD1D1FCEE2005AD4BB /* 薛之谦-演员.mp3 in Resources */,
+				7FAE1D421D1FCFEE005AD4BB /* nousenow_player_btn_pause_highlight@2x.png in Resources */,
+				7FAE1CF71D1FCEE2005AD4BB /* 陈奕迅-阴天快乐.mp3 in Resources */,
+				7FAE1CEA1D1FCEE2005AD4BB /* 陈奕迅-完.mp3 in Resources */,
+				7FAE1CF91D1FCEE2005AD4BB /* 韩安旭-多幸运.mp3 in Resources */,
+				7FAE1D331D1FCFEE005AD4BB /* myMusicSelect@2x.png in Resources */,
+				7FAE1D371D1FCFEE005AD4BB /* myTimerSelect@2x.png in Resources */,
+				7FAE1CEC1D1FCEE2005AD4BB /* 陈奕迅-对不起 谢谢.mp3 in Resources */,
+				7FAE1D451D1FCFEE005AD4BB /* nousenow_player_btn_play_normal@2x.png in Resources */,
+				7FAE1D4F1D1FCFEE005AD4BB /* player_btn_random_normal@2x.png in Resources */,
+				7FAE1D351D1FCFEE005AD4BB /* myLoveUnselect@2x.png in Resources */,
+				7FAE1CF01D1FCEE2005AD4BB /* 陈奕迅-淘汰.mp3 in Resources */,
+				7FAE1CFA1D1FCEE2005AD4BB /* 韩红,陈奕迅-十年 (Live).mp3 in Resources */,
+				7FAE1D481D1FCFEE005AD4BB /* nousenow_player_btn_pre_highlight@2x.png in Resources */,
+				7FAE1D461D1FCFEE005AD4BB /* nousenow_player_btn_next_highlight@2x.png in Resources */,
+				7FAE1CF51D1FCEE2005AD4BB /* 陈奕迅-等你爱我.mp3 in Resources */,
+				7FAE1CDA1D1FCEE2005AD4BB /* 张赫宣-我们不该这样的 (《北上广不相信眼泪》电视剧片尾曲).mp3 in Resources */,
+				7FAE1D3B1D1FCFEE005AD4BB /* player_btn_next_highlight@2x.png in Resources */,
+				7FAE1CD61D1FCEE2005AD4BB /* TRIPLANE-Dear friends.mp3 in Resources */,
+				7FAE1C761D1FCE43005AD4BB /* Assets.xcassets in Resources */,
+				7FAE1CE01D1FCEE2005AD4BB /* 陈奕迅-一丝不挂.mp3 in Resources */,
+				7FAE1D2F1D1FCFEE005AD4BB /* volume_slider_thumb@2x.png in Resources */,
+				7FAE1D2B1D1FCFEE005AD4BB /* mvplayer_progress_thumb_mini@2x.png in Resources */,
+				7FAE1D511D1FCFEE005AD4BB /* player_btn_repeatone_normal@2x.png in Resources */,
+				7FAE1CED1D1FCEE2005AD4BB /* 陈奕迅-时光隧道.mp3 in Resources */,
+				7FAE1D4D1D1FCFEE005AD4BB /* player_btn_love_highlight@2x.png in Resources */,
+				7FAE1D3C1D1FCFEE005AD4BB /* player_btn_pre_normal@2x.png in Resources */,
+				7FAE1D341D1FCFEE005AD4BB /* myLoveSelect@2x.png in Resources */,
+				7FAE1D4B1D1FCFEE005AD4BB /* player_btn_playlist_highlight@2x.png in Resources */,
+				7F94D10D1D22300D0044EE8D /* LICENSE in Resources */,
+				7FAE1CF61D1FCEE2005AD4BB /* 陈奕迅-红玫瑰.mp3 in Resources */,
+				7FAE1CE11D1FCEE2005AD4BB /* 陈奕迅-不如承诺来的简单.mp3 in Resources */,
+				7FAE1CF11D1FCEE2005AD4BB /* 陈奕迅-爱情转移.mp3 in Resources */,
+				7FAE1D441D1FCFEE005AD4BB /* nousenow_player_btn_play_highlight@2x.png in Resources */,
+				7FAE1D4C1D1FCFEE005AD4BB /* player_btn_playlist_normal@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FAE1C7D1D1FCE43005AD4BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FAE1C881D1FCE43005AD4BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FAE1C5F1D1FCE43005AD4BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAE1C741D1FCE43005AD4BB /* MusicX.xcdatamodeld in Sources */,
+				7F94D1111D22300D0044EE8D /* MJPropertyKey.m in Sources */,
+				7F94D1151D22300D0044EE8D /* NSObject+MJKeyValue.m in Sources */,
+				7F94D0F31D222F050044EE8D /* lrcModel.m in Sources */,
+				7FAE1D6A1D1FD140005AD4BB /* UIColor+Hex.m in Sources */,
+				7F94D10F1D22300D0044EE8D /* MJFoundation.m in Sources */,
+				7FAE1D671D1FD140005AD4BB /* RectangleLayer.m in Sources */,
+				7FAE1CAD1D1FCEB3005AD4BB /* MyLove.m in Sources */,
+				7FAE1CAE1D1FCEB3005AD4BB /* MyTimer.m in Sources */,
+				7FAE1C681D1FCE43005AD4BB /* main.m in Sources */,
+				7FAE1D651D1FD140005AD4BB /* AnimatiomView.m in Sources */,
+				7FAE1D711D1FD158005AD4BB /* ASValueTrackingSlider.m in Sources */,
+				7FAE1CAF1D1FCEB3005AD4BB /* MyMemory.m in Sources */,
+				7F94D1181D22300D0044EE8D /* README.md in Sources */,
+				7F94D10E1D22300D0044EE8D /* MJExtensionConst.m in Sources */,
+				7FAE1D551D1FD118005AD4BB /* MarqueeLabel.m in Sources */,
+				7F94D1141D22300D0044EE8D /* NSObject+MJCoding.m in Sources */,
+				7FAE1D691D1FD140005AD4BB /* WaveLayer.m in Sources */,
+				7FAE1CAC1D1FCEB3005AD4BB /* myMusicTableViewCell.m in Sources */,
+				7FAE1D681D1FD140005AD4BB /* TriangleLayer.m in Sources */,
+				7F94D1161D22300D0044EE8D /* NSObject+MJProperty.m in Sources */,
+				7F94D1101D22300D0044EE8D /* MJProperty.m in Sources */,
+				7FAE1D661D1FD140005AD4BB /* CircleLayer.m in Sources */,
+				7FAE1D701D1FD158005AD4BB /* ASValuePopUpView.m in Sources */,
+				7FAE1CA01D1FCE7A005AD4BB /* AppDelegate.m in Sources */,
+				7F94D1171D22300D0044EE8D /* NSString+MJExtension.m in Sources */,
+				7F94D1131D22300D0044EE8D /* NSObject+MJClass.m in Sources */,
+				7F94D1121D22300D0044EE8D /* MJPropertyType.m in Sources */,
+				7FAE1CAB1D1FCEB3005AD4BB /* MyMusic.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FAE1C7B1D1FCE43005AD4BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAE1C841D1FCE43005AD4BB /* MusicXTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FAE1C861D1FCE43005AD4BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAE1C8F1D1FCE43005AD4BB /* MusicXUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FAE1C811D1FCE43005AD4BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FAE1C621D1FCE43005AD4BB /* MusicX */;
+			targetProxy = 7FAE1C801D1FCE43005AD4BB /* PBXContainerItemProxy */;
+		};
+		7FAE1C8C1D1FCE43005AD4BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FAE1C621D1FCE43005AD4BB /* MusicX */;
+			targetProxy = 7FAE1C8B1D1FCE43005AD4BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7FAE1C771D1FCE43005AD4BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FAE1C781D1FCE43005AD4BB /* Base */,
+				7FAE1D741D1FD2E8005AD4BB /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FAE1C911D1FCE43005AD4BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7FAE1C921D1FCE43005AD4BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FAE1C941D1FCE43005AD4BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = MusicX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "P4-gumingxuan-163.com";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7FAE1C951D1FCE43005AD4BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = MusicX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "P4-gumingxuan-163.com";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7FAE1C971D1FCE43005AD4BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MusicXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "P4-gumingxuan-163.com.MusicXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicX.app/MusicX";
+			};
+			name = Debug;
+		};
+		7FAE1C981D1FCE43005AD4BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MusicXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "P4-gumingxuan-163.com.MusicXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicX.app/MusicX";
+			};
+			name = Release;
+		};
+		7FAE1C9A1D1FCE43005AD4BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MusicXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "P4-gumingxuan-163.com.MusicXUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MusicX;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7FAE1C9B1D1FCE43005AD4BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MusicXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "P4-gumingxuan-163.com.MusicXUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MusicX;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FAE1C5E1D1FCE43005AD4BB /* Build configuration list for PBXProject "MusicX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FAE1C911D1FCE43005AD4BB /* Debug */,
+				7FAE1C921D1FCE43005AD4BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FAE1C931D1FCE43005AD4BB /* Build configuration list for PBXNativeTarget "MusicX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FAE1C941D1FCE43005AD4BB /* Debug */,
+				7FAE1C951D1FCE43005AD4BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FAE1C961D1FCE43005AD4BB /* Build configuration list for PBXNativeTarget "MusicXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FAE1C971D1FCE43005AD4BB /* Debug */,
+				7FAE1C981D1FCE43005AD4BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FAE1C991D1FCE43005AD4BB /* Build configuration list for PBXNativeTarget "MusicXUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FAE1C9A1D1FCE43005AD4BB /* Debug */,
+				7FAE1C9B1D1FCE43005AD4BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7FAE1C721D1FCE43005AD4BB /* MusicX.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7FAE1C731D1FCE43005AD4BB /* MusicX.xcdatamodel */,
+			);
+			currentVersion = 7FAE1C731D1FCE43005AD4BB /* MusicX.xcdatamodel */;
+			path = MusicX.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7FAE1C5B1D1FCE43005AD4BB /* Project object */;
+}

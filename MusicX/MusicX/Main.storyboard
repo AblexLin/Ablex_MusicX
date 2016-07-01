@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F1808" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="zYx-6X-h7t">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yKq-It-l0J">
+            <objects>
+                <tabBarController id="zYx-6X-h7t" sceneMemberID="viewController">
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="Xw1-sI-hBe">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="quK-pz-sg1" kind="relationship" relationship="viewControllers" id="FRL-Gr-6o3"/>
+                        <segue destination="VDG-cn-t3j" kind="relationship" relationship="viewControllers" id="gdu-Kj-1xc"/>
+                        <segue destination="Bof-A1-BgZ" kind="relationship" relationship="viewControllers" id="Ysv-nP-u4E"/>
+                        <segue destination="ErN-2L-r6g" kind="relationship" relationship="viewControllers" id="Nkw-z4-zHD"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SEf-oF-eed" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="67.733333333333334" y="-63.426666666666669"/>
+        </scene>
+        <!--我的音乐-->
+        <scene sceneID="Jcj-2r-q0C">
+            <objects>
+                <navigationController id="quK-pz-sg1" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="我的音乐" image="myMusicSelect.png" selectedImage="myMusicUnselect.png" id="DAT-iL-gkO"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="7fQ-lj-1XY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="gon-Ww-oHL" kind="relationship" relationship="rootViewController" id="3Co-Nm-PlL"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y33-fe-Nti" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-236.26666666666665" y="708.10666666666668"/>
+        </scene>
+        <!--我的音乐-->
+        <scene sceneID="q7o-fR-zvX">
+            <objects>
+                <viewController id="gon-Ww-oHL" customClass="MyMusic" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VBP-Hd-2DZ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="我的音乐" id="B6J-fv-cqh"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hzg-zZ-Isc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-236.26666666666665" y="1349"/>
+        </scene>
+        <!--我的最爱-->
+        <scene sceneID="lEV-2L-To8">
+            <objects>
+                <navigationController id="VDG-cn-t3j" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="我的最爱" image="myLoveSelect.png" selectedImage="myLoveUnselect.png" id="09a-Ry-XUp"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3W2-eH-sSg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="XAR-cS-FgV" kind="relationship" relationship="rootViewController" id="RcK-Ge-GMH"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Y4-jB-EDG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-40" y="700.5333333333333"/>
+        </scene>
+        <!--我的最爱-->
+        <scene sceneID="JGR-8O-1F3">
+            <objects>
+                <viewController id="XAR-cS-FgV" customClass="MyLove" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bXE-vi-7ew">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="我的最爱" id="Ycd-fr-PBH"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vZP-cq-DKq" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-40" y="1349"/>
+        </scene>
+        <!--计时关闭-->
+        <scene sceneID="euQ-Bs-Phd">
+            <objects>
+                <navigationController id="Bof-A1-BgZ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="计时关闭" image="myTimerSelect.png" selectedImage="myTimerUnselect.png" id="BCq-HD-TYq"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="aO1-aA-8J9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="6bJ-Y1-f2P" kind="relationship" relationship="rootViewController" id="dDX-qW-Lig"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V0g-5B-jwr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="169.59999999999999" y="700.5333333333333"/>
+        </scene>
+        <!--计时关闭-->
+        <scene sceneID="Q5r-7C-QyG">
+            <objects>
+                <viewController id="6bJ-Y1-f2P" customClass="MyTimer" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rPT-CP-LC4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="countDownTimer" minuteInterval="1" id="iTn-OE-18A">
+                                <rect key="frame" x="0.0" y="64" width="320" height="216"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <date key="date" timeIntervalSinceReferenceDate="646718251.15881503">
+                                    <!--2021-06-30 03:57:31 +0000-->
+                                </date>
+                            </datePicker>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="e5Y-NU-PwR">
+                                <rect key="frame" x="0.0" y="298" width="320" height="40"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="6bJ-Y1-f2P" id="3WT-nK-dY8"/>
+                                    <outlet property="delegate" destination="6bJ-Y1-f2P" id="Twa-lZ-TSW"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="计时关闭" id="4YV-E1-YhQ"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="choseTableView" destination="e5Y-NU-PwR" id="PX4-Bc-lPv"/>
+                        <outlet property="datePicker" destination="iTn-OE-18A" id="yvZ-uw-rCN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6hT-tk-nC1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="169" y="1349"/>
+        </scene>
+        <!--语音备忘-->
+        <scene sceneID="ZXP-J1-fU3">
+            <objects>
+                <navigationController id="ErN-2L-r6g" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="语音备忘" image="myMemoryUnselect.png" selectedImage="myMemoryUnselect.png" id="cHl-zO-Aqu"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="I1j-Pf-8ps">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vuM-Be-2Ec" kind="relationship" relationship="rootViewController" id="xue-xf-2EH"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hpO-eW-0mB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="392" y="700.5333333333333"/>
+        </scene>
+        <!--语音备忘-->
+        <scene sceneID="VEE-R3-RIj">
+            <objects>
+                <viewController id="vuM-Be-2Ec" customClass="MyMemory" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6uS-or-qEZ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="语音备忘" id="rgE-Xn-QPm"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EGG-zW-QF9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="392" y="1349"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="myLoveSelect.png" width="28" height="25"/>
+        <image name="myLoveUnselect.png" width="28" height="25"/>
+        <image name="myMemoryUnselect.png" width="30" height="14"/>
+        <image name="myMusicSelect.png" width="22" height="21"/>
+        <image name="myMusicUnselect.png" width="22" height="21"/>
+        <image name="myTimerSelect.png" width="25" height="25"/>
+        <image name="myTimerUnselect.png" width="25" height="25"/>
+    </resources>
+</document>
